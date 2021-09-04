@@ -1,0 +1,72 @@
+Programmer: Logan Choi
+File: hm1.txt
+Purpose: Write Algorithms in English
+
+
+
+1. Mod Problem:
+   a.) Save the divisor into a new variable called 'original divisor'
+   	(i.e. if divisor equals 2, 'original divisor' equals 2)
+   b.) Compare the dividend with the divisor.
+   c.) If the dividend is greater than the divisor, add 'original divisor'
+       to the divisor.
+   d.) Repeat step 'c' until divisor is greater than or equal to the
+       dividend.
+   e.) If the divisor is equal to the dividend, the answer is zero.
+   f.) If the divisor is greater than the dividend, subtract the dividend
+       from the divisor, and subtract the new number from the number stored in
+       'original divisor'. You have found the remainder.
+
+2. Length Problem:
+   a.) Talk to the customer, and ask some questions.
+	i. Is the object foldable?
+	ii. Do you care if I fold the object? (Ask this only if the answer
+	    to the previous question is yes.)
+   b.) If the product is not foldable or the customer says that he/she
+       doesn't want you to fold the object, you will measure it the long
+       way.
+	i. You first place your string and object side by side where one
+	   side starts at the same spot.
+        ii. Take your string, and measure it at the start of the object.
+        iii. Add 8 to the total. (In the beginning, the total will be 0.)  
+        iv. Move the start of the string to where the end of the string
+            was.
+	v. Repeat the steps 2-4 until the string is bigger than the
+           remaining object's length. (Write the current total on a piece of
+           paper)
+   c.) Else if the product is foldable and the customer says he/she doesn't
+       mind you folding the object. You will measure it the short way.
+	i. You place your string and object side by side.
+	ii. Take your string, and measure it at the start of the object. 
+        iii. Fold the object over the measured eight inches.
+        iv. Repeat steps 2-3 until the string is bigger than the remaining
+            object's length. 
+   d.) Once the string is bigger than the remaining object's lenght, you
+       will know fold the string.
+   e.) Fold the string to either get the numbers 4,2,1.
+	i. Fold to get teh biggest ohunk of the remaining object's length.
+	ii. Move the start of the string to where the end of the string was.
+	iii. Repeat until the object is fully measured. MAKE SURE TO KEEP
+             TRACK OF THE TOTAL REMAINING LENGTH.
+   f.) If you used the long way, add the total remaining length with the
+       current total.
+   g.) If you used the short way, multiply the number of folds with 8, then
+       add the total remaining length.
+
+3. Class Problem:
+   ASSUMPTIONS: You always have a place to park your moped. Parking your
+   tank does not matter. You can park your tank wherever you want. No one's
+   gonna tow it.
+   a.) Find out information.
+	i. Check the time, and calculate how much time you have until class
+           that is 12 miles away.
+	ii. Check the weather radio.
+	iii. Check the traffic radio.
+   b.) If the weather is horrible, take the tank. (It is your only choice.)
+   c.) Else if the weather is nice and you are 4 hours until class, walk to
+       class.
+   d.) Else if the traffic is horrible,the weather is nice, and you are not
+       4 hours until class, take the tank until you can walk to class on time.
+   e.) Else if there is no traffic, the weather is nice, and you are not
+       4 hours until class, take the moped until you can walk to class on
+       time. 
