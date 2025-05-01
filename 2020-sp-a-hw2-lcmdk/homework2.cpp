@@ -37,7 +37,7 @@ int main()
 
   //Calculation for handle length
 
-  handle = (static_cast<float>(stink)/thresh_score) * (3*tail + wt_possum) + 30
+  handle = (static_cast<float>(stink)/thresh_score) * (3*tail + wt_possum) + 30;
 
   //Calculation for fork number
 
